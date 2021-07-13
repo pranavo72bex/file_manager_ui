@@ -11,13 +11,6 @@ void main() {
       title: "Application",
       initialRoute: AppPages.INITIAL,
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        scaffoldBackgroundColor: kbackgroudcolor,
-        appBarTheme: AppBarTheme(
-          color: kbackgroudcolor,
-          elevation: 0,
-        ),
-      ),
       themeMode: ThemeMode.dark,
       darkTheme: ThemeData.dark(),
       getPages: AppPages.routes,

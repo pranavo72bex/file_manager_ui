@@ -1,3 +1,4 @@
+import 'package:filemanager/app/modules/home/views/favouritepage.dart';
 import 'package:get/get.dart';
 
 import 'package:filemanager/app/modules/home/bindings/home_binding.dart';
@@ -14,6 +15,11 @@ class AppPages {
     GetPage(
       name: _Paths.HOME,
       page: () => HomeView(),
+      binding: HomeBinding(),
+    ),
+    GetPage(
+      name: _Paths.fab,
+      page: () => FavoritePage(),
       binding: HomeBinding(),
     ),
   ];

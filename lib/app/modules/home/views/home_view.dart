@@ -1,4 +1,3 @@
-import 'package:filemanager/app/modules/home/views/favouritepage.dart';
 import 'package:filemanager/const/kcolor.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -32,7 +31,7 @@ class HomeView extends GetView<HomeController> {
             children: [
               InkWell(
                 onTap: () {
-                  Get.to(() => FavoritePage());
+                  Get.toNamed("/fab");
                 },
                 child: Container(
                   padding: EdgeInsets.all(kpadding),
