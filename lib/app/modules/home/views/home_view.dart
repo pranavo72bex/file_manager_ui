@@ -16,6 +16,9 @@ class HomeView extends GetView<HomeController> {
       appBar: AppBar(
         backgroundColor: kbackgroudcolor,
         elevation: 0,
+        leading: Icon(
+          Icons.bubble_chart_rounded,
+        ),
         actions: [
           IconButton(
             onPressed: () {},
